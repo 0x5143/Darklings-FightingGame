@@ -167,7 +167,7 @@ public class DemonicsPhysics : MonoBehaviour
     public static void CameraHorizontalBounds(PlayerNetwork player, PlayerNetwork otherPlayer)
     {
         DemonFloat distance = DemonFloat.Abs((DemonFloat)player.position.x - (DemonFloat)otherPlayer.position.x);
-        if (distance >= (DemonFloat)220)
+        if (distance >= (DemonFloat)120)
         {
             if (player.position.x > otherPlayer.position.x)
             {
